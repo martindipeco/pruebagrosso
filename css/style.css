@@ -513,6 +513,7 @@ p  { font-size: 1rem; line-height: 1.75; color: var(--gray); }
   color: var(--black);
   transition: border-color var(--transition);
   outline: none;
+  appearance: none;
   -webkit-appearance: none;
 }
 .form-group input:focus,
