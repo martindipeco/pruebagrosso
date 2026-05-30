@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Arc — Architecture &amp; Design</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<script src="js/components.js"></script>
+
+<main class="page">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grain"></div>
+    <div class="hero-accent-line"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">Architecture &amp; Interior Design</div>
+      <h1>Spaces that<br><em>tell stories.</em></h1>
+      <p class="hero-sub">We design places where people thrive — from private residences to cultural landmarks. Every project is a conversation between architecture and life.</p>
+      <div class="hero-cta">
+        <a href="projects.html" class="btn btn-primary">View Projects</a>
+        <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">Scroll</div>
+  </section>
+
+  <!-- VIDEO CAROUSEL -->
+  <section class="carousel-section">
+    <div class="carousel-header">
+      <span class="section-label">In Motion</span>
+      <h2 style="color:var(--white)">Featured Work</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="carousel-wrapper">
+      <div class="carousel-track" id="carouselTrack">
+
+        <!-- SLIDE 1 -->
+        <div class="carousel-slide">
+          <!-- Replace src with your own video file, e.g. src="videos/project1.mp4" -->
+          <video
+            src="https://www.w3schools.com/html/mov_bbb.mp4"
+            preload="metadata"
+            playsinline
+            loop
+            poster=""
+          ></video>
+          <button class="play-btn" aria-label="Play video">&#9654;</button>
+          <div class="carousel-slide-overlay">
+            <div class="slide-info">
+              <div class="slide-num">01 / 03</div>
+              <h3>The Meridian House</h3>
+              <p>Private Residence — São Paulo, BR</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 2 -->
+        <div class="carousel-slide">
+          <video
+            src="https://www.w3schools.com/html/movie.mp4"
+            preload="metadata"
+            playsinline
+            loop
+          ></video>
+          <button class="play-btn" aria-label="Play video">&#9654;</button>
+          <div class="carousel-slide-overlay">
+            <div class="slide-info">
+              <div class="slide-num">02 / 03</div>
+              <h3>Luma Cultural Center</h3>
+              <p>Public Building — Buenos Aires, AR</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 3 -->
+        <div class="carousel-slide">
+          <video
+            src="https://www.w3schools.com/html/mov_bbb.mp4"
+            preload="metadata"
+            playsinline
+            loop
+          ></video>
+          <button class="play-btn" aria-label="Play video">&#9654;</button>
+          <div class="carousel-slide-overlay">
+            <div class="slide-info">
+              <div class="slide-num">03 / 03</div>
+              <h3>Terrace Office Complex</h3>
+              <p>Commercial — Montevideo, UY</p>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /track -->
+    </div><!-- /wrapper -->
+
+    <div class="carousel-controls">
+      <button class="carousel-btn" id="carouselPrev" aria-label="Previous">&#8592;</button>
+      <div class="carousel-dots">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <button class="carousel-btn" id="carouselNext" aria-label="Next">&#8594;</button>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-strip">
+    <div class="stat-item fade-up">
+      <div class="stat-num">17+</div>
+      <div class="stat-label">Years Active</div>
+    </div>
+    <div class="stat-item fade-up">
+      <div class="stat-num">84</div>
+      <div class="stat-label">Projects Built</div>
+    </div>
+    <div class="stat-item fade-up">
+      <div class="stat-num">12</div>
+      <div class="stat-label">Awards Won</div>
+    </div>
+  </div>
+
+  <!-- FEATURED PROJECTS -->
+  <section class="section">
+    <div class="section-header fade-up">
+      <span class="section-label">Portfolio Highlights</span>
+      <h2>Selected Projects</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="featured-grid">
+
+      <a class="featured-card fade-up" href="project-detail.html?id=1">
+        <div class="img-placeholder" style="width:100%;aspect-ratio:4/3;background:linear-gradient(135deg,#1a1510,#3a2a18,#1a1510)" data-label="Meridian House"></div>
+        <div class="featured-card-overlay">
+          <div class="featured-card-info">
+            <div class="tag">Residential</div>
+            <h3>The Meridian House</h3>
+          </div>
+        </div>
+      </a>
+
+      <a class="featured-card fade-up" href="project-detail.html?id=2">
+        <div class="img-placeholder" style="width:100%;aspect-ratio:4/3;background:linear-gradient(135deg,#101520,#182030,#101520)" data-label="Luma Center"></div>
+        <div class="featured-card-overlay">
+          <div class="featured-card-info">
+            <div class="tag">Cultural</div>
+            <h3>Luma Cultural Center</h3>
+          </div>
+        </div>
+      </a>
+
+      <a class="featured-card fade-up" href="project-detail.html?id=3">
+        <div class="img-placeholder" style="width:100%;aspect-ratio:4/3;background:linear-gradient(135deg,#151510,#252520,#151510)" data-label="Terrace Office"></div>
+        <div class="featured-card-overlay">
+          <div class="featured-card-info">
+            <div class="tag">Commercial</div>
+            <h3>Terrace Office Complex</h3>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <div style="text-align:center;margin-top:2.5rem;">
+      <a href="projects.html" class="btn btn-outline fade-up">View All Projects</a>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section style="background:var(--black);padding:4rem 1.25rem;text-align:center;">
+    <span class="section-label">Let's Collaborate</span>
+    <h2 style="color:var(--white);margin:0.75rem 0 1rem;">Have a project in mind?</h2>
+    <p style="color:var(--gray-light);max-width:480px;margin:0 auto 2rem;">We'd love to hear about your vision. From concept to construction, we bring ideas to life.</p>
+    <a href="contact.html" class="btn btn-primary">Start a Conversation</a>
+  </section>
+
+</main>
+
+<!-- LIGHTBOX (not used on home, but structure kept) -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close">&#10005;</button>
+  <button class="lightbox-nav lightbox-prev">&#8592;</button>
+  <button class="lightbox-nav lightbox-next">&#8594;</button>
+  <div class="lightbox-inner">
+    <img class="lightbox-img" src="" alt="" />
+    <div class="lightbox-caption"></div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

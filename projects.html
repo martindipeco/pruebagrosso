@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Studio Arc</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<script src="js/components.js"></script>
+
+<main class="page">
+
+  <!-- PAGE HERO -->
+  <section class="projects-hero">
+    <span class="section-label">Our Work</span>
+    <h1 style="margin:0.5rem 0 1rem;">Every project,<br>a new answer.</h1>
+    <div class="divider"></div>
+  </section>
+
+  <!-- PROJECTS GRID -->
+  <section class="section">
+
+    <!-- FILTER BAR -->
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="residential">Residential</button>
+      <button class="filter-btn" data-filter="commercial">Commercial</button>
+      <button class="filter-btn" data-filter="cultural">Cultural</button>
+      <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+      <button class="filter-btn" data-filter="interior">Interior</button>
+    </div>
+
+    <!-- GRID -->
+    <div class="projects-grid">
+
+      <!-- Card 1 -->
+      <a class="project-card fade-up" href="project-detail.html?id=1" data-category="residential">
+        <div class="project-card-img">
+          <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#1a1510,#3a2a18,#1a1510)" data-label="Meridian House"></div>
+          <span class="project-category">Residential</span>
+        </div>
+        <div class="project-card-body">
+          <h3>The Meridian House</h3>
+          <p>A family home that celebrates the dialogue between concrete precision and tropical landscape.</p>
+          <div class="project-card-footer">
+            <span>São Paulo, BR · 2023</span>
+            <span class="arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Card 2 -->
+      <a class="project-card fade-up" href="project-detail.html?id=2" data-category="cultural">
+        <div class="project-card-img">
+          <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#101520,#182030,#101520)" data-label="Luma Center"></div>
+          <span class="project-category">Cultural</span>
+        </div>
+        <div class="project-card-body">
+          <h3>Luma Cultural Center</h3>
+          <p>A landmark for art, music, and performance in the heart of the city, open to all.</p>
+          <div class="project-card-footer">
+            <span>Buenos Aires, AR · 2022</span>
+            <span class="arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Card 3 -->
+      <a class="project-card fade-up" href="project-detail.html?id=3" data-category="commercial">
+        <div class="project-card-img">
+          <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#151510,#252520,#151510)" data-label="Terrace Office"></div>
+          <span class="project-category">Commercial</span>
+        </div>
+        <div class="project-card-body">
+          <h3>Terrace Office Complex</h3>
+          <p>A stacked workplace campus designed around productive encounters and open-air thinking.</p>
+          <div class="project-card-footer">
+            <span>Montevideo, UY · 2022</span>
+            <span class="arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Card 4 -->
+      <a class="project-card fade-up" href="project-detail.html?id=4" data-category="hospitality">
+        <div class="project-card-img">
+          <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#1a1015,#301828,#1a1015)" data-label="Bosque Hotel"></div>
+          <span class="project-category">Hospitality</span>
+        </div>
+        <div class="project-card-body">
+          <h3>Bosque Boutique Hotel</h3>
+          <p>Twelve rooms nestled into a private forest, where architecture disappears into nature.</p>
+          <div class="project-card-footer">
+            <span>Bariloche, AR · 2021</span>
+            <span class="arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Card 5 -->
+      <a class="project-card fade-up" href="project-detail.html?id=5" data-category="interior">
+        <div class="project-card-img">
+          <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#101a10,#182818,#101a10)" data-label="Alma Restaurant"></div>
+          <span class="project-category">Interior</span>
+        </div>
+        <div class="project-card-body">
+          <h3>Alma Restaurant</h3>
+          <p>A sensory dining experience designed in warm oak, raw stone, and curated light.</p>
+          <div class="project-card-footer">
+            <span>Santiago, CL · 2021</span>
+            <span class="arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Card 6 -->
+      <a class="project-card fade-up" href="project-detail.html?id=6" data-category="residential">
+        <div class="project-card-img">
+          <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#1a1500,#302500,#1a1500)" data-label="Patio House"></div>
+          <span class="project-category">Residential</span>
+        </div>
+        <div class="project-card-body">
+          <h3>Casa Patio</h3>
+          <p>A courtyard house that turns inward, creating a private world within a dense urban block.</p>
+          <div class="project-card-footer">
+            <span>Córdoba, AR · 2020</span>
+            <span class="arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Card 7 -->
+      <a class="project-card fade-up" href="project-detail.html?id=7" data-category="cultural">
+        <div class="project-card-img">
+          <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#0a1520,#10223a,#0a1520)" data-label="Library"></div>
+          <span class="project-category">Cultural</span>
+        </div>
+        <div class="project-card-body">
+          <h3>Biblioteca del Sur</h3>
+          <p>A public library conceived as a living room for the neighbourhood — open, warm, and inviting.</p>
+          <div class="project-card-footer">
+            <span>Rosario, AR · 2020</span>
+            <span class="arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Card 8 -->
+      <a class="project-card fade-up" href="project-detail.html?id=8" data-category="commercial">
+        <div class="project-card-img">
+          <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#180a0a,#300f0f,#180a0a)" data-label="HQ Building"></div>
+          <span class="project-category">Commercial</span>
+        </div>
+        <div class="project-card-body">
+          <h3>Rojo HQ</h3>
+          <p>A company headquarters that expresses brand identity through spatial experience and craft.</p>
+          <div class="project-card-footer">
+            <span>Lima, PE · 2019</span>
+            <span class="arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div><!-- /grid -->
+  </section>
+
+</main>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close">&#10005;</button>
+  <button class="lightbox-nav lightbox-prev">&#8592;</button>
+  <button class="lightbox-nav lightbox-next">&#8594;</button>
+  <div class="lightbox-inner">
+    <img class="lightbox-img" src="" alt="" />
+    <div class="lightbox-caption"></div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

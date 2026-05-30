@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Studio Arc</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<script src="js/components.js"></script>
+
+<main class="page">
+
+  <!-- PAGE HERO -->
+  <section class="contact-hero">
+    <span class="section-label">Get in Touch</span>
+    <h1 style="margin:0.5rem 0 1rem;">Let's start a<br>conversation.</h1>
+    <div class="divider"></div>
+  </section>
+
+  <!-- CONTACT CONTENT -->
+  <section class="section">
+    <div class="contact-grid">
+
+      <!-- LEFT: Info -->
+      <div>
+        <div class="section-header fade-up">
+          <span class="section-label">Find Us</span>
+          <h2>Contact Information</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div class="contact-info-block fade-up">
+
+          <div class="contact-item">
+            <div class="contact-icon">&#9679;</div>
+            <div class="contact-item-text">
+              <div class="label">Address</div>
+              <p>Av. del Libertador 4350, Piso 8<br>Buenos Aires, Argentina</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">&#9993;</div>
+            <div class="contact-item-text">
+              <div class="label">Email</div>
+              <p>hello@studioarc.design</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">&#9742;</div>
+            <div class="contact-item-text">
+              <div class="label">Phone</div>
+              <p>+54 11 4700-0000</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">&#9998;</div>
+            <div class="contact-item-text">
+              <div class="label">Office Hours</div>
+              <p>Monday – Friday<br>9:00 am – 6:00 pm ART</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Map placeholder -->
+        <div style="margin-top:2.5rem;border-radius:4px;overflow:hidden;border:1px solid var(--gray-light);">
+          <div class="img-placeholder" style="width:100%;aspect-ratio:16/9;background:linear-gradient(135deg,#e8e4dc,#d4cfc8);" data-label="Map Placeholder — embed Google Maps iframe here"></div>
+        </div>
+        <!-- To add a real map, replace the div above with:
+          <iframe
+            src="https://www.google.com/maps/embed?pb=..."
+            width="100%" height="300" style="border:0;" allowfullscreen loading="lazy">
+          </iframe>
+        -->
+      </div>
+
+      <!-- RIGHT: Form -->
+      <div class="fade-up">
+        <div class="section-header">
+          <span class="section-label">Write to Us</span>
+          <h2>Send a Message</h2>
+          <div class="divider"></div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" placeholder="María" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" placeholder="González" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="maria@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="+54 11 ..." />
+          </div>
+
+          <div class="form-group">
+            <label for="projectType">Project Type</label>
+            <select id="projectType" name="projectType">
+              <option value="">— Select a type —</option>
+              <option value="residential">Residential</option>
+              <option value="commercial">Commercial</option>
+              <option value="cultural">Cultural / Public</option>
+              <option value="hospitality">Hospitality</option>
+              <option value="interior">Interior Design Only</option>
+              <option value="other">Other / Consultation</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message *</label>
+            <textarea id="message" name="message" placeholder="Tell us about your project, timeline, and any questions you have…" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+            Send Message &#8594;
+          </button>
+
+          <p style="font-size:0.75rem;color:var(--gray);text-align:center;margin-top:0.75rem;">
+            We typically respond within 1–2 business days.
+          </p>
+
+        </form>
+
+        <div class="form-success" id="formSuccess">
+          <div style="font-size:2.5rem;margin-bottom:1rem;">&#10003;</div>
+          <h3 style="margin-bottom:0.5rem;">Message Sent!</h3>
+          <p>Thank you for reaching out. We'll be in touch within 1–2 business days.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close">&#10005;</button>
+  <button class="lightbox-nav lightbox-prev">&#8592;</button>
+  <button class="lightbox-nav lightbox-next">&#8594;</button>
+  <div class="lightbox-inner">
+    <img class="lightbox-img" src="" alt="" />
+    <div class="lightbox-caption"></div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

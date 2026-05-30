@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project — Studio Arc</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<script src="js/components.js"></script>
+
+<main class="page">
+
+  <!-- PAGE HERO -->
+  <section class="project-detail-hero">
+    <a class="back-link" href="projects.html">&#8592; All Projects</a>
+    <h1 id="projectTitle">The Meridian House</h1>
+    <p id="projectSubtitle">Private Residence — São Paulo, Brazil</p>
+    <div id="projectTags" class="project-tags">
+      <span class="project-tag">Residential</span>
+      <span class="project-tag">New Build</span>
+      <span class="project-tag">Landscape</span>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <section class="section">
+    <div style="display:grid;gap:2.5rem;">
+
+      <!-- HERO IMAGE -->
+      <div style="aspect-ratio:16/9;border-radius:4px;overflow:hidden;background:var(--gray-light);">
+        <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#1a1510,#3a2a18,#1a1510)" data-label="Project Main Image"></div>
+      </div>
+
+      <!-- TWO-COL: TEXT + FACT SHEET -->
+      <div style="display:grid;gap:2.5rem;" id="detailLayout">
+
+        <!-- LEFT: Description -->
+        <div class="fade-up">
+          <span class="section-label">The Project</span>
+          <h2 style="margin:0.5rem 0 1.25rem;" id="descTitle">A home in dialogue with its landscape.</h2>
+
+          <p id="descP1" style="margin-bottom:1rem;">
+            The Meridian House is a private residence for a family of four, sited on a sloped lot at the edge of the Atlantic Forest in Greater São Paulo. The brief was deceptively simple: build a house that feels like it belongs here, and nowhere else.
+          </p>
+          <p id="descP2" style="margin-bottom:1rem;">
+            Our response was a long, horizontal volume that follows the natural contour of the land. Concrete walls — board-formed and left raw — anchor the structure to the earth, while a cantilevered living wing opens to the forest below through full-height glass. The boundary between inside and outside dissolves.
+          </p>
+          <p id="descP3">
+            Inside, materials shift from the cool precision of exposed concrete to the warmth of reclaimed jequitibá wood, hand-thrown ceramic tiles, and natural stone sourced within 80 km of the site. Every room is oriented to capture morning light, framing specific views of the tree canopy like living paintings.
+          </p>
+        </div>
+
+        <!-- RIGHT: Fact Sheet -->
+        <div class="fade-up">
+          <div class="fact-sheet">
+            <div class="fact-sheet-title">Project Facts</div>
+            <div class="fact-list" id="factList">
+              <div class="fact-item">
+                <span class="fact-key">Location</span>
+                <span class="fact-val">São Paulo, Brazil</span>
+              </div>
+              <div class="fact-item">
+                <span class="fact-key">Year</span>
+                <span class="fact-val">2023</span>
+              </div>
+              <div class="fact-item">
+                <span class="fact-key">Type</span>
+                <span class="fact-val">Private Residence</span>
+              </div>
+              <div class="fact-item">
+                <span class="fact-key">Area</span>
+                <span class="fact-val">680 m²</span>
+              </div>
+              <div class="fact-item">
+                <span class="fact-key">Status</span>
+                <span class="fact-val">Completed</span>
+              </div>
+              <div class="fact-item">
+                <span class="fact-key">Structural Eng.</span>
+                <span class="fact-val">Faria &amp; Assoc.</span>
+              </div>
+              <div class="fact-item">
+                <span class="fact-key">Landscape</span>
+                <span class="fact-val">Ateliê Verde</span>
+              </div>
+              <div class="fact-item">
+                <span class="fact-key">Photography</span>
+                <span class="fact-val">Leonardo Finotti</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="contact.html" class="btn btn-outline" style="width:100%;justify-content:center;">
+            Enquire About This Project
+          </a>
+        </div>
+
+      </div><!-- /two-col -->
+
+      <!-- GALLERY -->
+      <div class="fade-up">
+        <div class="section-header" style="margin-bottom:1.5rem;">
+          <span class="section-label">Photography</span>
+          <h2>Project Gallery</h2>
+          <p style="margin-top:0.5rem;font-size:0.85rem;">Tap any image to enlarge.</p>
+          <div class="divider"></div>
+        </div>
+
+        <div class="project-gallery" id="projectGallery">
+
+          <!-- Large featured -->
+          <div class="gallery-item large">
+            <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#1a1510,#3a2a18)" data-label="Exterior — Approach"></div>
+            <div class="zoom-icon">&#10021;</div>
+          </div>
+
+          <!-- Grid images -->
+          <div class="gallery-item">
+            <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(150deg,#1a1510,#2a1c0e)" data-label="Living Room"></div>
+            <div class="zoom-icon">&#10021;</div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(160deg,#151208,#2a2010)" data-label="Kitchen"></div>
+            <div class="zoom-icon">&#10021;</div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(140deg,#100f08,#22200e)" data-label="Staircase"></div>
+            <div class="zoom-icon">&#10021;</div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(130deg,#1a1510,#302415)" data-label="Master Bedroom"></div>
+            <div class="zoom-icon">&#10021;</div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(170deg,#0e100e,#161810)" data-label="Bathroom"></div>
+            <div class="zoom-icon">&#10021;</div>
+          </div>
+
+          <!-- Wide -->
+          <div class="gallery-item large">
+            <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#0a0e12,#12181e)" data-label="Pool Terrace"></div>
+            <div class="zoom-icon">&#10021;</div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(120deg,#141010,#200e0e)" data-label="Detail — Concrete"></div>
+            <div class="zoom-icon">&#10021;</div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="img-placeholder" style="width:100%;height:100%;background:linear-gradient(150deg,#101414,#0e1a1a)" data-label="Detail — Wood"></div>
+            <div class="zoom-icon">&#10021;</div>
+          </div>
+
+        </div><!-- /gallery -->
+      </div>
+
+      <!-- NAVIGATION: PREV / NEXT PROJECT -->
+      <div style="display:flex;justify-content:space-between;gap:1rem;padding-top:1.5rem;border-top:1px solid var(--gray-light);">
+        <a href="project-detail.html?id=8" class="btn btn-outline" style="flex:1;justify-content:center;">← Prev Project</a>
+        <a href="project-detail.html?id=2" class="btn btn-outline" style="flex:1;justify-content:center;">Next Project →</a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close">&#10005;</button>
+  <button class="lightbox-nav lightbox-prev">&#8592;</button>
+  <button class="lightbox-nav lightbox-next">&#8594;</button>
+  <div class="lightbox-inner">
+    <img class="lightbox-img" src="" alt="" />
+    <div class="lightbox-caption"></div>
+  </div>
+</div>
+
+<script src="js/placeholders.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+/* ── Dynamic project data ─────────────────────
+   This object holds all project data.
+   To add or edit a project, just update this
+   object — no other code needs to change.
+   ─────────────────────────────────────────── */
+const PROJECTS = {
+  1: {
+    title: "The Meridian House",
+    subtitle: "Private Residence — São Paulo, Brazil",
+    tags: ["Residential", "New Build", "Landscape"],
+    descTitle: "A home in dialogue with its landscape.",
+    p1: "The Meridian House is a private residence for a family of four, sited on a sloped lot at the edge of the Atlantic Forest in Greater São Paulo. The brief was deceptively simple: build a house that feels like it belongs here, and nowhere else.",
+    p2: "Our response was a long, horizontal volume that follows the natural contour of the land. Concrete walls — board-formed and left raw — anchor the structure to the earth, while a cantilevered living wing opens to the forest below through full-height glass.",
+    p3: "Inside, materials shift from the cool precision of exposed concrete to the warmth of reclaimed wood, hand-thrown ceramic tiles, and natural stone sourced within 80 km of the site.",
+    facts: [
+      ["Location", "São Paulo, Brazil"],
+      ["Year", "2023"],
+      ["Type", "Private Residence"],
+      ["Area", "680 m²"],
+      ["Status", "Completed"],
+      ["Structural Eng.", "Faria & Assoc."],
+      ["Landscape", "Ateliê Verde"],
+      ["Photography", "L. Finotti"]
+    ]
+  },
+  2: {
+    title: "Luma Cultural Center",
+    subtitle: "Public Building — Buenos Aires, Argentina",
+    tags: ["Cultural", "Public", "New Build"],
+    descTitle: "A civic room for the city.",
+    p1: "The Luma Cultural Center was commissioned by the City of Buenos Aires as a multidisciplinary venue for visual arts, music, and community programming in the La Boca neighbourhood.",
+    p2: "The building organises itself around a central atrium — a covered public square that spills from the street into the heart of the institution. This gesture transforms what could be an enclosed arts facility into an open extension of the city.",
+    p3: "The façade draws on the neighbourhood's tradition of corrugated metal and vivid colour, reinterpreted in weathering steel and perforated panels that shift tonality with the light.",
+    facts: [
+      ["Location", "Buenos Aires, AR"],
+      ["Year", "2022"],
+      ["Type", "Cultural / Public"],
+      ["Area", "4,200 m²"],
+      ["Status", "Completed"],
+      ["Structural Eng.", "Ingeniera Botta"],
+      ["Client", "City of Buenos Aires"],
+      ["Photography", "Ramiro Sosa"]
+    ]
+  },
+  3: {
+    title: "Terrace Office Complex",
+    subtitle: "Commercial — Montevideo, Uruguay",
+    tags: ["Commercial", "Workplace", "Sustainable"],
+    descTitle: "Work, reimagined at altitude.",
+    p1: "The Terrace Office Complex is a 12-storey workplace campus in Montevideo's evolving waterfront district. The client wanted to attract talent by offering something no other office building in the city provides: a genuine relationship with the outdoors.",
+    p2: "Each floor steps back from the one below, creating a continuous cascade of terraces and garden levels. The building section becomes a vertical neighbourhood, with shared courtyards, a rooftop amphitheatre, and ground-floor public retail.",
+    p3: "The structure is a hybrid timber-concrete frame — one of the first in Uruguay — reducing embodied carbon by 34% compared to a conventional concrete alternative.",
+    facts: [
+      ["Location", "Montevideo, UY"],
+      ["Year", "2022"],
+      ["Type", "Commercial / Workplace"],
+      ["Area", "22,000 m²"],
+      ["Floors", "12"],
+      ["Status", "Completed"],
+      ["Structure", "Timber-Concrete Hybrid"],
+      ["Photography", "Iñaki Bergera"]
+    ]
+  },
+  4: {
+    title: "Bosque Boutique Hotel",
+    subtitle: "Hospitality — Bariloche, Argentina",
+    tags: ["Hospitality", "New Build", "Landscape"],
+    descTitle: "Where architecture steps back.",
+    p1: "Bosque is a 12-room boutique hotel set within a 4-hectare private forest on the outskirts of Bariloche. The commission demanded a paradox: create a destination that is invisible.",
+    p2: "The twelve guest pavilions are distributed through the trees, connected by a timber boardwalk that floats above the forest floor. Each pavilion rotates to face a different view — a frozen lake, a stand of lenga beeches, a distant volcano.",
+    p3: "Materials are exclusively local: Patagonian stone, hand-planed cypress, wool insulation. No material was transported more than 300 km.",
+    facts: [
+      ["Location", "Bariloche, AR"],
+      ["Year", "2021"],
+      ["Type", "Hospitality"],
+      ["Rooms", "12 Pavilions"],
+      ["Status", "Completed"],
+      ["Landscape", "Bosque Nativo"],
+      ["Interiors", "Studio Arc"],
+      ["Photography", "Daniela Mac Adden"]
+    ]
+  },
+  5: {
+    title: "Alma Restaurant",
+    subtitle: "Interior Design — Santiago, Chile",
+    tags: ["Interior", "Hospitality", "Renovation"],
+    descTitle: "Eating as a sensory ritual.",
+    p1: "Alma is a 60-cover restaurant in Santiago's Lastarria neighbourhood occupying a converted early 20th-century townhouse. The client — a celebrated chef — wanted a space that was warm, unhurried, and deeply material.",
+    p2: "We worked with three primary materials throughout: raw oak, volcanic stone from the Andes, and hand-applied lime plaster in a warm ochre tone. The lighting scheme was designed to create intimate pools of candlelight.",
+    p3: "The open kitchen becomes the spatial centrepiece — a theatre of controlled fire visible from every table.",
+    facts: [
+      ["Location", "Santiago, CL"],
+      ["Year", "2021"],
+      ["Type", "Restaurant Interior"],
+      ["Covers", "60"],
+      ["Status", "Completed"],
+      ["Lighting", "Estudio Lux"],
+      ["FF&E", "Artesanos del Sur"],
+      ["Photography", "Alejandro Ávila"]
+    ]
+  },
+  6: {
+    title: "Casa Patio",
+    subtitle: "Private Residence — Córdoba, Argentina",
+    tags: ["Residential", "Urban", "Renovation"],
+    descTitle: "Privacy as architecture.",
+    p1: "Casa Patio is a family home built within the tight constraints of a traditional urban lot in Córdoba's Nueva Córdoba neighbourhood. The challenge: deliver privacy, light, and garden in a context that offers none.",
+    p2: "The solution turns the house inward. A 6×6m open-to-sky patio becomes the organisational heart of the plan — every room opens onto it rather than the street. The street façade is intentionally blank: a raw concrete wall that asks nothing of the city.",
+    p3: "Inside the patio, orange trees, a reflecting pool, and a deep timber colonnade create a world entirely disconnected from the urban noise outside.",
+    facts: [
+      ["Location", "Córdoba, AR"],
+      ["Year", "2020"],
+      ["Type", "Private Residence"],
+      ["Area", "340 m²"],
+      ["Status", "Completed"],
+      ["Structure", "García Ingeniería"],
+      ["Landscape", "Jardín Austral"],
+      ["Photography", "Federico Cairoli"]
+    ]
+  },
+  7: {
+    title: "Biblioteca del Sur",
+    subtitle: "Public Building — Rosario, Argentina",
+    tags: ["Cultural", "Public", "Community"],
+    descTitle: "A living room for the neighbourhood.",
+    p1: "Biblioteca del Sur is a new public library for the Tablada neighbourhood in Rosario, conceived in close collaboration with the community it serves. The design emerged from a series of workshops with local residents, students, and teachers.",
+    p2: "The building is organised as a series of interconnected rooms of different scales — from a large reading hall under a vaulted timber ceiling, to intimate study alcoves, to a children's zone opening directly onto a community garden.",
+    p3: "The library runs on passive climate strategies: thick earth walls, cross-ventilation, and a rooftop garden that insulates while producing vegetables for the neighbourhood cooperative.",
+    facts: [
+      ["Location", "Rosario, AR"],
+      ["Year", "2020"],
+      ["Type", "Public Library"],
+      ["Area", "1,800 m²"],
+      ["Status", "Completed"],
+      ["Client", "Municipalidad de Rosario"],
+      ["Structure", "Pasquini Estructura"],
+      ["Photography", "Gustavo Frittegotto"]
+    ]
+  },
+  8: {
+    title: "Rojo HQ",
+    subtitle: "Commercial — Lima, Peru",
+    tags: ["Commercial", "Workplace", "Brand Identity"],
+    descTitle: "A building that speaks the brand.",
+    p1: "Rojo is a Lima-based consumer goods company that asked us to design their new headquarters not as a typical corporate office, but as an architectural expression of their brand values: boldness, craft, and Latin American identity.",
+    p2: "The five-storey building is wrapped in a brise-soleil of hand-cast terracotta tiles — each individually shaped in a local ceramics workshop. The tiles filter light into the workspaces while presenting a richly textured, ever-changing façade to the street.",
+    p3: "Inside, the workplace is organised around a three-storey atrium planted with Peruvian endemic species, providing both ecological and psychological benefit to the 200 employees who work here.",
+    facts: [
+      ["Location", "Lima, PE"],
+      ["Year", "2019"],
+      ["Type", "Corporate HQ"],
+      ["Area", "8,500 m²"],
+      ["Employees", "200"],
+      ["Status", "Completed"],
+      ["Façade", "Cerámica Chancay"],
+      ["Photography", "Jorge Kanashiro"]
+    ]
+  }
+};
+
+/* ── Render project from URL param ─────────── */
+(function () {
+  const params = new URLSearchParams(window.location.search);
+  const id     = params.get('id') || '1';
+  const data   = PROJECTS[id] || PROJECTS['1'];
+
+  // Title & subtitle
+  document.getElementById('projectTitle').textContent    = data.title;
+  document.getElementById('projectSubtitle').textContent = data.subtitle;
+  document.title = data.title + ' — Studio Arc';
+
+  // Tags
+  const tagsEl = document.getElementById('projectTags');
+  tagsEl.innerHTML = data.tags.map(t => `<span class="project-tag">${t}</span>`).join('');
+
+  // Description
+  document.getElementById('descTitle').textContent = data.descTitle;
+  document.getElementById('descP1').textContent = data.p1;
+  document.getElementById('descP2').textContent = data.p2;
+  document.getElementById('descP3').textContent = data.p3;
+
+  // Facts
+  const factEl = document.getElementById('factList');
+  factEl.innerHTML = data.facts.map(([k, v]) => `
+    <div class="fact-item">
+      <span class="fact-key">${k}</span>
+      <span class="fact-val">${v}</span>
+    </div>`).join('');
+
+  // Prev / Next links
+  const ids   = Object.keys(PROJECTS).map(Number);
+  const idx   = ids.indexOf(Number(id));
+  const prev  = ids[(idx - 1 + ids.length) % ids.length];
+  const next  = ids[(idx + 1) % ids.length];
+  const links = document.querySelectorAll('[href*="project-detail"]');
+  if (links[0]) links[0].href = `project-detail.html?id=${prev}`;
+  if (links[1]) links[1].href = `project-detail.html?id=${next}`;
+})();
+</script>
+
+</body>
+</html>
