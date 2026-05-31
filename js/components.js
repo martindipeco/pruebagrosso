@@ -5,12 +5,12 @@
 
 const NAVBAR_HTML = `
 <nav class="navbar">
-  <a class="nav-logo" href="index.html">Studio&nbsp;Arc</a>
+  <a class="nav-logo" href="index.html">E&nbsp;G&nbsp;A&nbsp;A</a>
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li><a href="projects.html">Proyectos</a></li>
+    <li><a href="about.html">Nosotros</a></li>
+    <li><a href="contact.html">Contacto</a></li>
   </ul>
   <button class="hamburger" id="hamburger" aria-label="Menu">
     <span></span><span></span><span></span>
@@ -18,28 +18,21 @@ const NAVBAR_HTML = `
 </nav>
 <div class="mobile-menu" id="mobileMenu">
   <a href="index.html">Home</a>
-  <a href="projects.html">Projects</a>
-  <a href="about.html">About Us</a>
-  <a href="contact.html">Contact</a>
+  <a href="projects.html">Proyectos</a>
+  <a href="about.html">Nosotros</a>
+  <a href="contact.html">Contacto</a>
 </div>`;
 
 const FOOTER_HTML = `
 <footer>
-  <div class="footer-logo">Studio Arc</div>
-  <p class="footer-tagline">Architecture &amp; Design Excellence Since 2008</p>
+  <div class="footer-logo">Estudio Grosso y Arquitectos Asociados</div>
+  <p class="footer-tagline">Seguinos en nuestras redes</p>
   <div class="footer-links">
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact</a>
     <a href="#">Instagram</a>
-    <a href="#">LinkedIn</a>
-    <a href="#">Behance</a>
-    <a href="#">Pinterest</a>
   </div>
   <div class="footer-bottom">
-    <span>&copy; 2025 Studio Arc. All rights reserved.</span>
-    <span>Crafted with care.</span>
+    <span>&copy; EGAA</span>
+    <span>Estudio Grosso Arquitectos Asociados</span>
   </div>
 </footer>`;
 
