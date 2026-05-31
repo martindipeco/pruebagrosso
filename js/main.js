@@ -113,7 +113,7 @@ function initFilters() {
       btn.classList.add('active');
       const cat = btn.dataset.filter;
       cards.forEach(card => {
-        const show = cat === 'all' || card.dataset.category === cat;
+        const show = cat === 'todos' || card.dataset.category === cat;
         card.style.display = show ? '' : 'none';
       });
     });
