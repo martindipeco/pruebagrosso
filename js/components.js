@@ -28,7 +28,7 @@ const FOOTER_HTML = `
   <div class="footer-logo">Estudio Grosso y Arquitectos Asociados</div>
   <p class="footer-tagline">Seguinos en nuestras redes</p>
   <div class="footer-links">
-    <a href="#">Instagram</a>
+    <a href="https://www.instagram.com/grossoarquitectos/" target="_blank" rel="noopener noreferrer">Instagram</a>
   </div>
   <div class="footer-bottom">
     <span>&copy; EGAA</span>
