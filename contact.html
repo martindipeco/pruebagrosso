@@ -69,14 +69,11 @@
 
         <!-- Map placeholder -->
         <div style="margin-top:2.5rem;border-radius:4px;overflow:hidden;border:1px solid var(--gray-light);">
-          <div class="img-placeholder" style="width:100%;aspect-ratio:16/9;background:linear-gradient(135deg,#e8e4dc,#d4cfc8);" data-label="Map Placeholder — embed Google Maps iframe here"></div>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.86493055254!2d-58.4631667!3d-34.556975099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb681e232563d%3A0xb4215480245de643!2sManuel%20Ugarte%202548%2C%20C1428BSN%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1780321306730!5m2!1ses!2sar" 
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>"
         </div>
-        <!-- To add a real map, replace the div above with:
-          <iframe
-            src="https://www.google.com/maps/embed?pb=..."
-            width="100%" height="300" style="border:0;" allowfullscreen loading="lazy">
-          </iframe>
-        -->
       </div>
 
       <!-- RIGHT: Form -->
@@ -92,17 +89,17 @@
           <div class="form-row">
             <div class="form-group">
               <label for="firstName">Nombre *</label>
-              <input type="text" id="firstName" name="firstName" placeholder="María" required />
+              <input type="text" id="firstName" name="firstName" placeholder="Mi Nombre" required />
             </div>
             <div class="form-group">
               <label for="lastName">Apellido *</label>
-              <input type="text" id="lastName" name="lastName" placeholder="González" required />
+              <input type="text" id="lastName" name="lastName" placeholder="Mi Apellido" required />
             </div>
           </div>
 
           <div class="form-group">
             <label for="email">Email *</label>
-            <input type="email" id="email" name="email" placeholder="maria@example.com" required />
+            <input type="email" id="email" name="email" placeholder="mail@ejemplo.com" required />
           </div>
 
           <div class="form-group">
